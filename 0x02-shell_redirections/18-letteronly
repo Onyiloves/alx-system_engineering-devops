@@ -1,2 +1,2 @@
 #!/bin/bash
-egrep ^[[:alpha:]] /etc/ssh/ssd/_config
+grep '^[A-Za-z]' /etc/ssh/sshd_config
